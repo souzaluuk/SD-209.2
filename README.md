@@ -1,10 +1,10 @@
 ## Prova II – Desenvolvimento de Modelo de Simulação
 
 ### Equipe:
-- [DANIEL SANTOS SANTANA](@) - 201504940032
-- [JAIRO NASCIMENTO DE SOUSA FILHO](@jairofilho79) - 201604940016
-- [KELLY DO SOCORRO SILVA DA COSTA](@kellydosocorro) - 201604940040
-- [LUCAS GABRIEL DE SOUZA](@souzaluuk) - 201604940039
+- [DANIEL SANTOS SANTANA](http://github.com/daniel-santana) - 201504940032
+- [JAIRO NASCIMENTO DE SOUSA FILHO](http://github.com/jairofilho79) - 201604940016
+- [KELLY DO SOCORRO SILVA DA COSTA](http://github.com/kellydosocorro) - 201604940040
+- [LUCAS GABRIEL DE SOUZA](http://github.com/souzaluuk) - 201604940039
 
 ### Execução
 - Clone este repositório:
