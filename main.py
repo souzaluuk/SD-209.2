@@ -4,7 +4,6 @@ import pandas as pd
 import time
 
 import utils
-import Entidades
 
 tripFields = [
 	'starttime',
