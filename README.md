@@ -21,3 +21,6 @@
     [SD-209.2]$ pyhon main.py
     ```
 ![Saída](img/Figure_1.png)
+
+### Modelo ACD
+- [Modelo feito no Draw.io](https://www.draw.io/?state=%7B%22ids%22:%5B%221iieU70r3wOCs5_WEBdTdmNzN2vuR09Rq%22%5D,%22action%22:%22open%22,%22userId%22:%22103045314136644396288%22%7D#G1iieU70r3wOCs5_WEBdTdmNzN2vuR09Rq)
