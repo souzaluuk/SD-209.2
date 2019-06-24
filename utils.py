@@ -1,5 +1,7 @@
 import datetime as dt
 import statistics as st
+import matplotlib.pyplot as plt
+import math
 
 def strToDatetime(date_str):
 	return dt.datetime.strptime(date_str, '%m/%d/%Y %H:%M')
@@ -34,3 +36,18 @@ def noOutliers(values):
 		if minOutlier <= value and value<= maxOutlier:
 			inliers.append(value)
 	return inliers
+
+def plotHistogram(values,titleHistogram=''):
+	print(titleHistogram)
+	valuesSorted = sorted(values) # sorted important
+	inliers = noOutliers(valuesSorted) # get inliers
+
+	k = round(1+3.3*math.log10(len(inliers))) ; print('K:',k)# classes
+	h = (max(inliers)-min(inliers))/k ; print('H:',h) # intervals
+
+	print('total:',len(valuesSorted),'inliers:',len(inliers),sep='\n')
+
+	plt.hist(inliers,bins=k)
+	plt.title(titleHistogram)
+	plt.show()
+	print()
