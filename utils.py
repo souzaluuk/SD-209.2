@@ -26,14 +26,14 @@ def noOutliers(values):
 	A = Q3 - Q1
 	print('A:',A)
 
-	minOutlier = Q1 - A * 3 # extreme outlier min
-	maxOutlier = Q3 + A * 3 # extreme outlier max
+	minOutlier = Q1 - A * 1.5 # mod outlier min
+	maxOutlier = Q3 + A * 1.5 # mod outlier max
 	print('minOutlier:',minOutlier)
 	print('maxOutlier:',maxOutlier)
 
 	inliers = list()
 	for value in values:
-		if minOutlier <= value and value<= maxOutlier:
+		if minOutlier <= value <= maxOutlier:
 			inliers.append(value)
 	return inliers
 
