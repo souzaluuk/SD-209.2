@@ -3,6 +3,9 @@ import statistics as st
 import matplotlib.pyplot as plt
 import math
 
+def timestampToDate(timestamp):
+	return dt.datetime.fromtimestamp(timestamp)
+
 def strToDatetime(date_str):
 	return dt.datetime.strptime(date_str, '%m/%d/%Y %H:%M')
 
