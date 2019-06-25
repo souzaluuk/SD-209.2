@@ -13,11 +13,11 @@ class Estacao:
     
     def emprestaBicicleta(self, usuario:Usuario):
         yield self.env.timeout(usuario.tempoChegada)
-        print(usuario.nome, 'chegou na estação em ', self.env.now)
+        print(usuario.nome, 'chegou na estação em', self.env.now, sep=',')
 
         with self.vagas.request() as vaga:
             yield vaga
-            print(usuario.nome, 'alugou a bicicleta em ', self.env.now)
+            print(usuario.nome, 'alugou a bicicleta em', self.env.now,sep=',')
             yield self.env.timeout(usuario.tempoChegada)
-            print(usuario.nome, 'devolveu a bicicleta em ', self.env.now)
+            print(usuario.nome, 'devolveu a bicicleta em', self.env.now,sep=',')
             return self.vagas.release(self.env.now)

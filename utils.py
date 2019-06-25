@@ -6,6 +6,9 @@ import math
 def strToDatetime(date_str):
 	return dt.datetime.strptime(date_str, '%m/%d/%Y %H:%M')
 
+def strSecToMilisec(sec_str):
+	return float(sec_str.replace('.',''))
+
 def quartis(values):
 	meio = len(values)//2
 
