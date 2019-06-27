@@ -1,0 +1,1113 @@
+Cenário inicia com:
+Numero de usuários: 1000
+BT-01 : {'bikes': 13, 'docks': 18, 'docksAvailable': 5}
+BT-03 : {'bikes': 12, 'docks': 16, 'docksAvailable': 4}
+BT-04 : {'bikes': 12, 'docks': 16, 'docksAvailable': 4}
+BT-05 : {'bikes': 10, 'docks': 14, 'docksAvailable': 4}
+CBD-03 : {'bikes': 15, 'docks': 20, 'docksAvailable': 5}
+CBD-04 : {'bikes': 13, 'docks': 18, 'docksAvailable': 5}
+CBD-05 : {'bikes': 21, 'docks': 28, 'docksAvailable': 7}
+CBD-06 : {'bikes': 19, 'docks': 27, 'docksAvailable': 8}
+CBD-07 : {'bikes': 15, 'docks': 20, 'docksAvailable': 5}
+CBD-13 : {'bikes': 13, 'docks': 18, 'docksAvailable': 5}
+
+US-1 chegou para aluguel em 2014-10-13 10:31:00 na estacao BT-01
+US-1 iniciou viagem no tempo 2014-10-13 10:31:00 saindo de BT-01
+Bicicletas na BT-01 : 12
+Vagas na BT-01 : 6
+Terminará em 2014-10-13 10:47:25 
+
+US-2 chegou para aluguel em 2014-10-13 10:32:00 na estacao BT-03
+US-2 iniciou viagem no tempo 2014-10-13 10:32:00 saindo de BT-03
+Bicicletas na BT-03 : 11
+Vagas na BT-03 : 5
+Terminará em 2014-10-13 10:47:26 
+
+US-3 chegou para aluguel em 2014-10-13 10:33:00 na estacao BT-04
+US-3 iniciou viagem no tempo 2014-10-13 10:33:00 saindo de BT-04
+Bicicletas na BT-04 : 11
+Vagas na BT-04 : 5
+Terminará em 2014-10-13 10:47:43 
+
+US-4 chegou para aluguel em 2014-10-13 10:34:00 na estacao CBD-03
+US-5 chegou para aluguel em 2014-10-13 10:34:00 na estacao BT-05
+US-6 chegou para aluguel em 2014-10-13 10:34:00 na estacao BT-01
+US-4 iniciou viagem no tempo 2014-10-13 10:34:00 saindo de CBD-03
+Bicicletas na CBD-03 : 14
+Vagas na CBD-03 : 6
+Terminará em 2014-10-13 10:48:25 
+
+US-5 iniciou viagem no tempo 2014-10-13 10:34:00 saindo de BT-05
+Bicicletas na BT-05 : 9
+Vagas na BT-05 : 5
+Terminará em 2014-10-13 10:49:23 
+
+US-6 iniciou viagem no tempo 2014-10-13 10:34:00 saindo de BT-01
+Bicicletas na BT-01 : 11
+Vagas na BT-01 : 7
+Terminará em 2014-10-13 10:47:28 
+
+US-1 chegou para devolução em 2014-10-13 10:47:25 na estacao BT-03
+US-1 devolveu no tempo 2014-10-13 10:47:25 em BT-03
+Bicicletas na BT-03 : 12
+Vagas na BT-03 : 4 
+
+US-2 chegou para devolução em 2014-10-13 10:47:26 na estacao CBD-04
+US-2 devolveu no tempo 2014-10-13 10:47:26 em CBD-04
+Bicicletas na CBD-04 : 14
+Vagas na CBD-04 : 4 
+
+US-6 chegou para devolução em 2014-10-13 10:47:28 na estacao CBD-13
+US-6 devolveu no tempo 2014-10-13 10:47:28 em CBD-13
+Bicicletas na CBD-13 : 14
+Vagas na CBD-13 : 4 
+
+US-3 chegou para devolução em 2014-10-13 10:47:43 na estacao CBD-03
+US-3 devolveu no tempo 2014-10-13 10:47:43 em CBD-03
+Bicicletas na CBD-03 : 15
+Vagas na CBD-03 : 5 
+
+US-4 chegou para devolução em 2014-10-13 10:48:25 na estacao CBD-13
+US-4 devolveu no tempo 2014-10-13 10:48:25 em CBD-13
+Bicicletas na CBD-13 : 15
+Vagas na CBD-13 : 3 
+
+US-5 chegou para devolução em 2014-10-13 10:49:23 na estacao CBD-13
+US-5 devolveu no tempo 2014-10-13 10:49:23 em CBD-13
+Bicicletas na CBD-13 : 16
+Vagas na CBD-13 : 2 
+
+US-7 chegou para aluguel em 2014-10-13 11:35:00 na estacao BT-04
+US-8 chegou para aluguel em 2014-10-13 11:35:00 na estacao CBD-05
+US-9 chegou para aluguel em 2014-10-13 11:35:00 na estacao CBD-04
+US-10 chegou para aluguel em 2014-10-13 11:35:00 na estacao CBD-06
+US-7 iniciou viagem no tempo 2014-10-13 11:35:00 saindo de BT-04
+Bicicletas na BT-04 : 10
+Vagas na BT-04 : 6
+Terminará em 2014-10-13 11:44:56 
+
+US-8 iniciou viagem no tempo 2014-10-13 11:35:00 saindo de CBD-05
+Bicicletas na CBD-05 : 20
+Vagas na CBD-05 : 8
+Terminará em 2014-10-13 11:44:52 
+
+US-9 iniciou viagem no tempo 2014-10-13 11:35:00 saindo de CBD-04
+Bicicletas na CBD-04 : 13
+Vagas na CBD-04 : 5
+Terminará em 2014-10-13 11:44:46 
+
+US-10 iniciou viagem no tempo 2014-10-13 11:35:00 saindo de CBD-06
+Bicicletas na CBD-06 : 18
+Vagas na CBD-06 : 9
+Terminará em 2014-10-13 11:44:47 
+
+US-11 chegou para aluguel em 2014-10-13 11:36:00 na estacao CBD-03
+US-11 iniciou viagem no tempo 2014-10-13 11:36:00 saindo de CBD-03
+Bicicletas na CBD-03 : 14
+Vagas na CBD-03 : 6
+Terminará em 2014-10-13 11:45:24 
+
+US-12 chegou para aluguel em 2014-10-13 11:37:00 na estacao BT-01
+US-13 chegou para aluguel em 2014-10-13 11:37:00 na estacao CBD-06
+US-14 chegou para aluguel em 2014-10-13 11:37:00 na estacao CBD-05
+US-15 chegou para aluguel em 2014-10-13 11:37:00 na estacao CBD-07
+US-16 chegou para aluguel em 2014-10-13 11:37:00 na estacao CBD-07
+US-17 chegou para aluguel em 2014-10-13 11:37:00 na estacao BT-05
+US-18 chegou para aluguel em 2014-10-13 11:37:00 na estacao BT-01
+US-12 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9
+Terminará em 2014-10-13 11:47:20 
+
+US-13 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de CBD-06
+Bicicletas na CBD-06 : 17
+Vagas na CBD-06 : 10
+Terminará em 2014-10-13 11:47:34 
+
+US-14 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de CBD-05
+Bicicletas na CBD-05 : 19
+Vagas na CBD-05 : 9
+Terminará em 2014-10-13 11:47:14 
+
+US-15 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de CBD-07
+Bicicletas na CBD-07 : 13
+Vagas na CBD-07 : 7
+Terminará em 2014-10-13 11:47:01 
+
+US-16 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de CBD-07
+Bicicletas na CBD-07 : 13
+Vagas na CBD-07 : 7
+Terminará em 2014-10-13 11:47:18 
+
+US-17 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de BT-05
+Bicicletas na BT-05 : 8
+Vagas na BT-05 : 6
+Terminará em 2014-10-13 11:47:17 
+
+US-18 iniciou viagem no tempo 2014-10-13 11:37:00 saindo de BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9
+Terminará em 2014-10-13 11:38:00 
+
+US-18 chegou para devolução em 2014-10-13 11:38:00 na estacao BT-04
+US-18 devolveu no tempo 2014-10-13 11:38:00 em BT-04
+Bicicletas na BT-04 : 11
+Vagas na BT-04 : 5 
+
+US-19 chegou para aluguel em 2014-10-13 11:40:00 na estacao CBD-04
+US-19 iniciou viagem no tempo 2014-10-13 11:40:00 saindo de CBD-04
+Bicicletas na CBD-04 : 12
+Vagas na CBD-04 : 6
+Terminará em 2014-10-13 11:48:19 
+
+US-20 chegou para aluguel em 2014-10-13 11:41:00 na estacao BT-04
+US-21 chegou para aluguel em 2014-10-13 11:41:00 na estacao CBD-07
+US-22 chegou para aluguel em 2014-10-13 11:41:00 na estacao CBD-07
+US-20 iniciou viagem no tempo 2014-10-13 11:41:00 saindo de BT-04
+Bicicletas na BT-04 : 10
+Vagas na BT-04 : 6
+Terminará em 2014-10-13 11:50:35 
+
+US-21 iniciou viagem no tempo 2014-10-13 11:41:00 saindo de CBD-07
+Bicicletas na CBD-07 : 11
+Vagas na CBD-07 : 9
+Terminará em 2014-10-13 11:50:31 
+
+US-22 iniciou viagem no tempo 2014-10-13 11:41:00 saindo de CBD-07
+Bicicletas na CBD-07 : 11
+Vagas na CBD-07 : 9
+Terminará em 2014-10-13 11:50:23 
+
+US-23 chegou para aluguel em 2014-10-13 11:42:00 na estacao BT-04
+US-23 iniciou viagem no tempo 2014-10-13 11:42:00 saindo de BT-04
+Bicicletas na BT-04 : 9
+Vagas na BT-04 : 7
+Terminará em 2014-10-13 11:49:17 
+
+US-24 chegou para aluguel em 2014-10-13 11:43:00 na estacao CBD-05
+US-25 chegou para aluguel em 2014-10-13 11:43:00 na estacao CBD-04
+US-26 chegou para aluguel em 2014-10-13 11:43:00 na estacao CBD-04
+US-27 chegou para aluguel em 2014-10-13 11:43:00 na estacao CBD-06
+US-28 chegou para aluguel em 2014-10-13 11:43:00 na estacao CBD-05
+US-29 chegou para aluguel em 2014-10-13 11:43:00 na estacao CBD-07
+US-24 iniciou viagem no tempo 2014-10-13 11:43:00 saindo de CBD-05
+Bicicletas na CBD-05 : 17
+Vagas na CBD-05 : 11
+Terminará em 2014-10-13 11:51:03 
+
+US-25 iniciou viagem no tempo 2014-10-13 11:43:00 saindo de CBD-04
+Bicicletas na CBD-04 : 10
+Vagas na CBD-04 : 8
+Terminará em 2014-10-13 11:50:59 
+
+US-26 iniciou viagem no tempo 2014-10-13 11:43:00 saindo de CBD-04
+Bicicletas na CBD-04 : 10
+Vagas na CBD-04 : 8
+Terminará em 2014-10-13 11:51:53 
+
+US-27 iniciou viagem no tempo 2014-10-13 11:43:00 saindo de CBD-06
+Bicicletas na CBD-06 : 16
+Vagas na CBD-06 : 11
+Terminará em 2014-10-13 11:51:01 
+
+US-28 iniciou viagem no tempo 2014-10-13 11:43:00 saindo de CBD-05
+Bicicletas na CBD-05 : 17
+Vagas na CBD-05 : 11
+Terminará em 2014-10-13 11:50:40 
+
+US-29 iniciou viagem no tempo 2014-10-13 11:43:00 saindo de CBD-07
+Bicicletas na CBD-07 : 10
+Vagas na CBD-07 : 10
+Terminará em 2014-10-13 11:50:39 
+
+US-30 chegou para aluguel em 2014-10-13 11:44:00 na estacao CBD-06
+US-31 chegou para aluguel em 2014-10-13 11:44:00 na estacao CBD-06
+US-32 chegou para aluguel em 2014-10-13 11:44:00 na estacao CBD-07
+US-30 iniciou viagem no tempo 2014-10-13 11:44:00 saindo de CBD-06
+Bicicletas na CBD-06 : 14
+Vagas na CBD-06 : 13
+Terminará em 2014-10-13 11:55:20 
+
+US-31 iniciou viagem no tempo 2014-10-13 11:44:00 saindo de CBD-06
+Bicicletas na CBD-06 : 14
+Vagas na CBD-06 : 13
+Terminará em 2014-10-13 11:59:20 
+
+US-32 iniciou viagem no tempo 2014-10-13 11:44:00 saindo de CBD-07
+Bicicletas na CBD-07 : 9
+Vagas na CBD-07 : 11
+Terminará em 2014-10-13 11:59:36 
+
+US-9 chegou para devolução em 2014-10-13 11:44:46 na estacao CBD-07
+US-9 devolveu no tempo 2014-10-13 11:44:46 em CBD-07
+Bicicletas na CBD-07 : 10
+Vagas na CBD-07 : 10 
+
+US-10 chegou para devolução em 2014-10-13 11:44:47 na estacao CBD-07
+US-10 devolveu no tempo 2014-10-13 11:44:47 em CBD-07
+Bicicletas na CBD-07 : 11
+Vagas na CBD-07 : 9 
+
+US-8 chegou para devolução em 2014-10-13 11:44:52 na estacao CBD-07
+US-8 devolveu no tempo 2014-10-13 11:44:52 em CBD-07
+Bicicletas na CBD-07 : 12
+Vagas na CBD-07 : 8 
+
+US-7 chegou para devolução em 2014-10-13 11:44:56 na estacao CBD-05
+US-7 devolveu no tempo 2014-10-13 11:44:56 em CBD-05
+Bicicletas na CBD-05 : 18
+Vagas na CBD-05 : 10 
+
+US-33 chegou para aluguel em 2014-10-13 11:45:00 na estacao CBD-06
+US-34 chegou para aluguel em 2014-10-13 11:45:00 na estacao CBD-04
+US-35 chegou para aluguel em 2014-10-13 11:45:00 na estacao CBD-07
+US-36 chegou para aluguel em 2014-10-13 11:45:00 na estacao CBD-06
+US-33 iniciou viagem no tempo 2014-10-13 11:45:00 saindo de CBD-06
+Bicicletas na CBD-06 : 12
+Vagas na CBD-06 : 15
+Terminará em 2014-10-13 12:00:37 
+
+US-34 iniciou viagem no tempo 2014-10-13 11:45:00 saindo de CBD-04
+Bicicletas na CBD-04 : 9
+Vagas na CBD-04 : 9
+Terminará em 2014-10-13 12:02:35 
+
+US-35 iniciou viagem no tempo 2014-10-13 11:45:00 saindo de CBD-07
+Bicicletas na CBD-07 : 11
+Vagas na CBD-07 : 9
+Terminará em 2014-10-13 11:59:20 
+
+US-36 iniciou viagem no tempo 2014-10-13 11:45:00 saindo de CBD-06
+Bicicletas na CBD-06 : 12
+Vagas na CBD-06 : 15
+Terminará em 2014-10-13 12:00:23 
+
+US-11 chegou para devolução em 2014-10-13 11:45:24 na estacao BT-01
+US-11 devolveu no tempo 2014-10-13 11:45:24 em BT-01
+Bicicletas na BT-01 : 10
+Vagas na BT-01 : 8 
+
+US-37 chegou para aluguel em 2014-10-13 11:46:00 na estacao CBD-04
+US-37 iniciou viagem no tempo 2014-10-13 11:46:00 saindo de CBD-04
+Bicicletas na CBD-04 : 8
+Vagas na CBD-04 : 10
+Terminará em 2014-10-13 11:51:20 
+
+US-15 chegou para devolução em 2014-10-13 11:47:01 na estacao BT-04
+US-15 devolveu no tempo 2014-10-13 11:47:01 em BT-04
+Bicicletas na BT-04 : 10
+Vagas na BT-04 : 6 
+
+US-14 chegou para devolução em 2014-10-13 11:47:14 na estacao CBD-05
+US-14 devolveu no tempo 2014-10-13 11:47:14 em CBD-05
+Bicicletas na CBD-05 : 19
+Vagas na CBD-05 : 9 
+
+US-17 chegou para devolução em 2014-10-13 11:47:17 na estacao BT-05
+US-17 devolveu no tempo 2014-10-13 11:47:17 em BT-05
+Bicicletas na BT-05 : 9
+Vagas na BT-05 : 5 
+
+US-16 chegou para devolução em 2014-10-13 11:47:18 na estacao BT-04
+US-16 devolveu no tempo 2014-10-13 11:47:18 em BT-04
+Bicicletas na BT-04 : 11
+Vagas na BT-04 : 5 
+
+US-12 chegou para devolução em 2014-10-13 11:47:20 na estacao CBD-04
+US-12 devolveu no tempo 2014-10-13 11:47:20 em CBD-04
+Bicicletas na CBD-04 : 9
+Vagas na CBD-04 : 9 
+
+US-13 chegou para devolução em 2014-10-13 11:47:34 na estacao CBD-04
+US-13 devolveu no tempo 2014-10-13 11:47:34 em CBD-04
+Bicicletas na CBD-04 : 10
+Vagas na CBD-04 : 8 
+
+US-19 chegou para devolução em 2014-10-13 11:48:19 na estacao BT-04
+US-19 devolveu no tempo 2014-10-13 11:48:19 em BT-04
+Bicicletas na BT-04 : 12
+Vagas na BT-04 : 4 
+
+US-38 chegou para aluguel em 2014-10-13 11:49:00 na estacao CBD-13
+US-39 chegou para aluguel em 2014-10-13 11:49:00 na estacao CBD-06
+US-40 chegou para aluguel em 2014-10-13 11:49:00 na estacao CBD-03
+US-41 chegou para aluguel em 2014-10-13 11:49:00 na estacao CBD-07
+US-42 chegou para aluguel em 2014-10-13 11:49:00 na estacao CBD-07
+US-43 chegou para aluguel em 2014-10-13 11:49:00 na estacao CBD-13
+US-38 iniciou viagem no tempo 2014-10-13 11:49:00 saindo de CBD-13
+Bicicletas na CBD-13 : 14
+Vagas na CBD-13 : 4
+Terminará em 2014-10-13 11:59:45 
+
+US-39 iniciou viagem no tempo 2014-10-13 11:49:00 saindo de CBD-06
+Bicicletas na CBD-06 : 11
+Vagas na CBD-06 : 16
+Terminará em 2014-10-13 11:59:50 
+
+US-40 iniciou viagem no tempo 2014-10-13 11:49:00 saindo de CBD-03
+Bicicletas na CBD-03 : 13
+Vagas na CBD-03 : 7
+Terminará em 2014-10-13 11:59:25 
+
+US-41 iniciou viagem no tempo 2014-10-13 11:49:00 saindo de CBD-07
+Bicicletas na CBD-07 : 9
+Vagas na CBD-07 : 11
+Terminará em 2014-10-13 11:59:23 
+
+US-42 iniciou viagem no tempo 2014-10-13 11:49:00 saindo de CBD-07
+Bicicletas na CBD-07 : 9
+Vagas na CBD-07 : 11
+Terminará em 2014-10-13 11:59:22 
+
+US-43 iniciou viagem no tempo 2014-10-13 11:49:00 saindo de CBD-13
+Bicicletas na CBD-13 : 14
+Vagas na CBD-13 : 4
+Terminará em 2014-10-13 12:05:54 
+
+US-23 chegou para devolução em 2014-10-13 11:49:17 na estacao CBD-06
+US-23 devolveu no tempo 2014-10-13 11:49:17 em CBD-06
+Bicicletas na CBD-06 : 12
+Vagas na CBD-06 : 15 
+
+US-22 chegou para devolução em 2014-10-13 11:50:23 na estacao CBD-07
+US-22 devolveu no tempo 2014-10-13 11:50:23 em CBD-07
+Bicicletas na CBD-07 : 10
+Vagas na CBD-07 : 10 
+
+US-21 chegou para devolução em 2014-10-13 11:50:31 na estacao CBD-04
+US-21 devolveu no tempo 2014-10-13 11:50:31 em CBD-04
+Bicicletas na CBD-04 : 11
+Vagas na CBD-04 : 7 
+
+US-20 chegou para devolução em 2014-10-13 11:50:35 na estacao CBD-07
+US-20 devolveu no tempo 2014-10-13 11:50:35 em CBD-07
+Bicicletas na CBD-07 : 11
+Vagas na CBD-07 : 9 
+
+US-29 chegou para devolução em 2014-10-13 11:50:39 na estacao BT-05
+US-29 devolveu no tempo 2014-10-13 11:50:39 em BT-05
+Bicicletas na BT-05 : 10
+Vagas na BT-05 : 4 
+
+US-28 chegou para devolução em 2014-10-13 11:50:40 na estacao CBD-06
+US-28 devolveu no tempo 2014-10-13 11:50:40 em CBD-06
+Bicicletas na CBD-06 : 13
+Vagas na CBD-06 : 14 
+
+US-25 chegou para devolução em 2014-10-13 11:50:59 na estacao CBD-13
+US-25 devolveu no tempo 2014-10-13 11:50:59 em CBD-13
+Bicicletas na CBD-13 : 15
+Vagas na CBD-13 : 3 
+
+US-44 chegou para aluguel em 2014-10-13 11:51:00 na estacao CBD-03
+US-45 chegou para aluguel em 2014-10-13 11:51:00 na estacao CBD-06
+US-46 chegou para aluguel em 2014-10-13 11:51:00 na estacao CBD-04
+US-47 chegou para aluguel em 2014-10-13 11:51:00 na estacao BT-03
+US-48 chegou para aluguel em 2014-10-13 11:51:00 na estacao BT-01
+US-49 chegou para aluguel em 2014-10-13 11:51:00 na estacao BT-03
+US-50 chegou para aluguel em 2014-10-13 11:51:00 na estacao CBD-13
+US-51 chegou para aluguel em 2014-10-13 11:51:00 na estacao CBD-03
+US-52 chegou para aluguel em 2014-10-13 11:51:00 na estacao BT-05
+US-44 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de CBD-03
+Bicicletas na CBD-03 : 11
+Vagas na CBD-03 : 9
+Terminará em 2014-10-13 12:01:11 
+
+US-45 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de CBD-06
+Bicicletas na CBD-06 : 12
+Vagas na CBD-06 : 15
+Terminará em 2014-10-13 12:03:45 
+
+US-46 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de CBD-04
+Bicicletas na CBD-04 : 10
+Vagas na CBD-04 : 8
+Terminará em 2014-10-13 12:01:26 
+
+US-47 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de BT-03
+Bicicletas na BT-03 : 10
+Vagas na BT-03 : 6
+Terminará em 2014-10-13 12:10:35 
+
+US-48 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9
+Terminará em 2014-10-13 12:10:34 
+
+US-49 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de BT-03
+Bicicletas na BT-03 : 10
+Vagas na BT-03 : 6
+Terminará em 2014-10-13 12:03:46 
+
+US-50 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de CBD-13
+Bicicletas na CBD-13 : 14
+Vagas na CBD-13 : 4
+Terminará em 2014-10-13 12:01:06 
+
+US-51 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de CBD-03
+Bicicletas na CBD-03 : 11
+Vagas na CBD-03 : 9
+Terminará em 2014-10-13 12:03:13 
+
+US-52 iniciou viagem no tempo 2014-10-13 11:51:00 saindo de BT-05
+Bicicletas na BT-05 : 9
+Vagas na BT-05 : 5
+Terminará em 2014-10-13 12:04:07 
+
+US-27 chegou para devolução em 2014-10-13 11:51:01 na estacao BT-04
+US-27 devolveu no tempo 2014-10-13 11:51:01 em BT-04
+Bicicletas na BT-04 : 13
+Vagas na BT-04 : 3 
+
+US-24 chegou para devolução em 2014-10-13 11:51:03 na estacao CBD-07
+US-24 devolveu no tempo 2014-10-13 11:51:03 em CBD-07
+Bicicletas na CBD-07 : 12
+Vagas na CBD-07 : 8 
+
+US-37 chegou para devolução em 2014-10-13 11:51:20 na estacao BT-04
+US-37 devolveu no tempo 2014-10-13 11:51:20 em BT-04
+Bicicletas na BT-04 : 14
+Vagas na BT-04 : 2 
+
+US-26 chegou para devolução em 2014-10-13 11:51:53 na estacao CBD-04
+US-26 devolveu no tempo 2014-10-13 11:51:53 em CBD-04
+Bicicletas na CBD-04 : 11
+Vagas na CBD-04 : 7 
+
+US-53 chegou para aluguel em 2014-10-13 11:52:00 na estacao CBD-07
+US-54 chegou para aluguel em 2014-10-13 11:52:00 na estacao CBD-03
+US-55 chegou para aluguel em 2014-10-13 11:52:00 na estacao BT-05
+US-53 iniciou viagem no tempo 2014-10-13 11:52:00 saindo de CBD-07
+Bicicletas na CBD-07 : 11
+Vagas na CBD-07 : 9
+Terminará em 2014-10-13 12:04:32 
+
+US-54 iniciou viagem no tempo 2014-10-13 11:52:00 saindo de CBD-03
+Bicicletas na CBD-03 : 10
+Vagas na CBD-03 : 10
+Terminará em 2014-10-13 11:55:23 
+
+US-55 iniciou viagem no tempo 2014-10-13 11:52:00 saindo de BT-05
+Bicicletas na BT-05 : 8
+Vagas na BT-05 : 6
+Terminará em 2014-10-13 12:02:14 
+
+US-56 chegou para aluguel em 2014-10-13 11:54:00 na estacao CBD-05
+US-56 iniciou viagem no tempo 2014-10-13 11:54:00 saindo de CBD-05
+Bicicletas na CBD-05 : 18
+Vagas na CBD-05 : 10
+Terminará em 2014-10-13 12:38:36 
+
+US-57 chegou para aluguel em 2014-10-13 11:55:00 na estacao BT-01
+US-57 iniciou viagem no tempo 2014-10-13 11:55:00 saindo de BT-01
+Bicicletas na BT-01 : 8
+Vagas na BT-01 : 10
+Terminará em 2014-10-13 11:59:28 
+
+US-30 chegou para devolução em 2014-10-13 11:55:20 na estacao CBD-03
+US-30 devolveu no tempo 2014-10-13 11:55:20 em CBD-03
+Bicicletas na CBD-03 : 11
+Vagas na CBD-03 : 9 
+
+US-54 chegou para devolução em 2014-10-13 11:55:23 na estacao BT-05
+US-54 devolveu no tempo 2014-10-13 11:55:23 em BT-05
+Bicicletas na BT-05 : 9
+Vagas na BT-05 : 5 
+
+US-58 chegou para aluguel em 2014-10-13 11:57:00 na estacao CBD-04
+US-58 iniciou viagem no tempo 2014-10-13 11:57:00 saindo de CBD-04
+Bicicletas na CBD-04 : 10
+Vagas na CBD-04 : 8
+Terminará em 2014-10-13 12:05:08 
+
+US-59 chegou para aluguel em 2014-10-13 11:58:00 na estacao BT-05
+US-59 iniciou viagem no tempo 2014-10-13 11:58:00 saindo de BT-05
+Bicicletas na BT-05 : 8
+Vagas na BT-05 : 6
+Terminará em 2014-10-13 12:38:44 
+
+US-60 chegou para aluguel em 2014-10-13 11:59:00 na estacao BT-03
+US-60 iniciou viagem no tempo 2014-10-13 11:59:00 saindo de BT-03
+Bicicletas na BT-03 : 9
+Vagas na BT-03 : 7
+Terminará em 2014-10-13 12:19:13 
+
+US-31 chegou para devolução em 2014-10-13 11:59:20 na estacao CBD-07
+US-35 chegou para devolução em 2014-10-13 11:59:20 na estacao CBD-06
+US-31 devolveu no tempo 2014-10-13 11:59:20 em CBD-07
+Bicicletas na CBD-07 : 12
+Vagas na CBD-07 : 8 
+
+US-35 devolveu no tempo 2014-10-13 11:59:20 em CBD-06
+Bicicletas na CBD-06 : 13
+Vagas na CBD-06 : 14 
+
+US-42 chegou para devolução em 2014-10-13 11:59:22 na estacao CBD-13
+US-42 devolveu no tempo 2014-10-13 11:59:22 em CBD-13
+Bicicletas na CBD-13 : 15
+Vagas na CBD-13 : 3 
+
+US-41 chegou para devolução em 2014-10-13 11:59:23 na estacao CBD-07
+US-41 devolveu no tempo 2014-10-13 11:59:23 em CBD-07
+Bicicletas na CBD-07 : 13
+Vagas na CBD-07 : 7 
+
+US-40 chegou para devolução em 2014-10-13 11:59:25 na estacao CBD-07
+US-40 devolveu no tempo 2014-10-13 11:59:25 em CBD-07
+Bicicletas na CBD-07 : 14
+Vagas na CBD-07 : 6 
+
+US-57 chegou para devolução em 2014-10-13 11:59:28 na estacao CBD-04
+US-57 devolveu no tempo 2014-10-13 11:59:28 em CBD-04
+Bicicletas na CBD-04 : 11
+Vagas na CBD-04 : 7 
+
+US-32 chegou para devolução em 2014-10-13 11:59:36 na estacao CBD-04
+US-32 devolveu no tempo 2014-10-13 11:59:36 em CBD-04
+Bicicletas na CBD-04 : 12
+Vagas na CBD-04 : 6 
+
+US-38 chegou para devolução em 2014-10-13 11:59:45 na estacao CBD-03
+US-38 devolveu no tempo 2014-10-13 11:59:45 em CBD-03
+Bicicletas na CBD-03 : 12
+Vagas na CBD-03 : 8 
+
+US-39 chegou para devolução em 2014-10-13 11:59:50 na estacao CBD-03
+US-39 devolveu no tempo 2014-10-13 11:59:50 em CBD-03
+Bicicletas na CBD-03 : 13
+Vagas na CBD-03 : 7 
+
+US-36 chegou para devolução em 2014-10-13 12:00:23 na estacao BT-05
+US-36 devolveu no tempo 2014-10-13 12:00:23 em BT-05
+Bicicletas na BT-05 : 9
+Vagas na BT-05 : 5 
+
+US-33 chegou para devolução em 2014-10-13 12:00:37 na estacao CBD-06
+US-33 devolveu no tempo 2014-10-13 12:00:37 em CBD-06
+Bicicletas na CBD-06 : 14
+Vagas na CBD-06 : 13 
+
+US-50 chegou para devolução em 2014-10-13 12:01:06 na estacao BT-01
+US-50 devolveu no tempo 2014-10-13 12:01:06 em BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9 
+
+US-44 chegou para devolução em 2014-10-13 12:01:11 na estacao BT-05
+US-44 devolveu no tempo 2014-10-13 12:01:11 em BT-05
+Bicicletas na BT-05 : 10
+Vagas na BT-05 : 4 
+
+US-46 chegou para devolução em 2014-10-13 12:01:26 na estacao CBD-13
+US-46 devolveu no tempo 2014-10-13 12:01:26 em CBD-13
+Bicicletas na CBD-13 : 16
+Vagas na CBD-13 : 2 
+
+US-61 chegou para aluguel em 2014-10-13 12:02:00 na estacao BT-03
+US-62 chegou para aluguel em 2014-10-13 12:02:00 na estacao BT-01
+US-63 chegou para aluguel em 2014-10-13 12:02:00 na estacao CBD-04
+US-61 iniciou viagem no tempo 2014-10-13 12:02:00 saindo de BT-03
+Bicicletas na BT-03 : 8
+Vagas na BT-03 : 8
+Terminará em 2014-10-13 12:40:06 
+
+US-62 iniciou viagem no tempo 2014-10-13 12:02:00 saindo de BT-01
+Bicicletas na BT-01 : 8
+Vagas na BT-01 : 10
+Terminará em 2014-10-13 12:19:46 
+
+US-63 iniciou viagem no tempo 2014-10-13 12:02:00 saindo de CBD-04
+Bicicletas na CBD-04 : 11
+Vagas na CBD-04 : 7
+Terminará em 2014-10-13 14:27:37 
+
+US-55 chegou para devolução em 2014-10-13 12:02:14 na estacao BT-01
+US-55 devolveu no tempo 2014-10-13 12:02:14 em BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9 
+
+US-34 chegou para devolução em 2014-10-13 12:02:35 na estacao CBD-13
+US-34 devolveu no tempo 2014-10-13 12:02:35 em CBD-13
+Bicicletas na CBD-13 : 17
+Vagas na CBD-13 : 1 
+
+US-51 chegou para devolução em 2014-10-13 12:03:13 na estacao CBD-13
+US-51 devolveu no tempo 2014-10-13 12:03:13 em CBD-13
+Bicicletas na CBD-13 : 18
+Vagas na CBD-13 : 0 
+
+US-45 chegou para devolução em 2014-10-13 12:03:45 na estacao CBD-07
+US-45 devolveu no tempo 2014-10-13 12:03:45 em CBD-07
+Bicicletas na CBD-07 : 15
+Vagas na CBD-07 : 5 
+
+US-49 chegou para devolução em 2014-10-13 12:03:46 na estacao BT-01
+US-49 devolveu no tempo 2014-10-13 12:03:46 em BT-01
+Bicicletas na BT-01 : 10
+Vagas na BT-01 : 8 
+
+US-64 chegou para aluguel em 2014-10-13 12:04:00 na estacao BT-04
+US-65 chegou para aluguel em 2014-10-13 12:04:00 na estacao BT-04
+US-64 iniciou viagem no tempo 2014-10-13 12:04:00 saindo de BT-04
+Bicicletas na BT-04 : 12
+Vagas na BT-04 : 4
+Terminará em 2014-10-13 12:04:35 
+
+US-65 iniciou viagem no tempo 2014-10-13 12:04:00 saindo de BT-04
+Bicicletas na BT-04 : 12
+Vagas na BT-04 : 4
+Terminará em 2014-10-13 12:12:55 
+
+US-52 chegou para devolução em 2014-10-13 12:04:07 na estacao BT-03
+US-52 devolveu no tempo 2014-10-13 12:04:07 em BT-03
+Bicicletas na BT-03 : 9
+Vagas na BT-03 : 7 
+
+US-53 chegou para devolução em 2014-10-13 12:04:32 na estacao BT-04
+US-53 devolveu no tempo 2014-10-13 12:04:32 em BT-04
+Bicicletas na BT-04 : 13
+Vagas na BT-04 : 3 
+
+US-64 chegou para devolução em 2014-10-13 12:04:35 na estacao BT-04
+US-64 devolveu no tempo 2014-10-13 12:04:35 em BT-04
+Bicicletas na BT-04 : 14
+Vagas na BT-04 : 2 
+
+US-66 chegou para aluguel em 2014-10-13 12:05:00 na estacao BT-01
+US-67 chegou para aluguel em 2014-10-13 12:05:00 na estacao CBD-13
+US-68 chegou para aluguel em 2014-10-13 12:05:00 na estacao BT-05
+US-66 iniciou viagem no tempo 2014-10-13 12:05:00 saindo de BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9
+Terminará em 2014-10-13 12:13:51 
+
+US-67 iniciou viagem no tempo 2014-10-13 12:05:00 saindo de CBD-13
+Bicicletas na CBD-13 : 17
+Vagas na CBD-13 : 1
+Terminará em 2014-10-13 12:16:06 
+
+US-68 iniciou viagem no tempo 2014-10-13 12:05:00 saindo de BT-05
+Bicicletas na BT-05 : 9
+Vagas na BT-05 : 5
+Terminará em 2014-10-13 12:44:32 
+
+US-58 chegou para devolução em 2014-10-13 12:05:08 na estacao BT-04
+US-58 devolveu no tempo 2014-10-13 12:05:08 em BT-04
+Bicicletas na BT-04 : 15
+Vagas na BT-04 : 1 
+
+US-43 chegou para devolução em 2014-10-13 12:05:54 na estacao CBD-05
+US-43 devolveu no tempo 2014-10-13 12:05:54 em CBD-05
+Bicicletas na CBD-05 : 19
+Vagas na CBD-05 : 9 
+
+US-69 chegou para aluguel em 2014-10-13 12:08:00 na estacao BT-01
+US-69 iniciou viagem no tempo 2014-10-13 12:08:00 saindo de BT-01
+Bicicletas na BT-01 : 8
+Vagas na BT-01 : 10
+Terminará em 2014-10-13 19:06:39 
+
+US-48 chegou para devolução em 2014-10-13 12:10:34 na estacao BT-05
+US-48 devolveu no tempo 2014-10-13 12:10:34 em BT-05
+Bicicletas na BT-05 : 10
+Vagas na BT-05 : 4 
+
+US-47 chegou para devolução em 2014-10-13 12:10:35 na estacao CBD-04
+US-47 devolveu no tempo 2014-10-13 12:10:35 em CBD-04
+Bicicletas na CBD-04 : 12
+Vagas na CBD-04 : 6 
+
+US-70 chegou para aluguel em 2014-10-13 12:11:00 na estacao CBD-04
+US-71 chegou para aluguel em 2014-10-13 12:11:00 na estacao BT-03
+US-70 iniciou viagem no tempo 2014-10-13 12:11:00 saindo de CBD-04
+Bicicletas na CBD-04 : 11
+Vagas na CBD-04 : 7
+Terminará em 2014-10-13 12:16:32 
+
+US-71 iniciou viagem no tempo 2014-10-13 12:11:00 saindo de BT-03
+Bicicletas na BT-03 : 8
+Vagas na BT-03 : 8
+Terminará em 2014-10-13 12:25:32 
+
+US-65 chegou para devolução em 2014-10-13 12:12:55 na estacao CBD-07
+US-65 devolveu no tempo 2014-10-13 12:12:55 em CBD-07
+Bicicletas na CBD-07 : 16
+Vagas na CBD-07 : 4 
+
+US-72 chegou para aluguel em 2014-10-13 12:13:00 na estacao CBD-04
+US-72 iniciou viagem no tempo 2014-10-13 12:13:00 saindo de CBD-04
+Bicicletas na CBD-04 : 10
+Vagas na CBD-04 : 8
+Terminará em 2014-10-13 12:19:55 
+
+US-66 chegou para devolução em 2014-10-13 12:13:51 na estacao CBD-05
+US-66 devolveu no tempo 2014-10-13 12:13:51 em CBD-05
+Bicicletas na CBD-05 : 20
+Vagas na CBD-05 : 8 
+
+US-73 chegou para aluguel em 2014-10-13 12:15:00 na estacao BT-01
+US-74 chegou para aluguel em 2014-10-13 12:15:00 na estacao CBD-06
+US-75 chegou para aluguel em 2014-10-13 12:15:00 na estacao CBD-13
+US-73 iniciou viagem no tempo 2014-10-13 12:15:00 saindo de BT-01
+Bicicletas na BT-01 : 7
+Vagas na BT-01 : 11
+Terminará em 2014-10-13 12:31:41 
+
+US-74 iniciou viagem no tempo 2014-10-13 12:15:00 saindo de CBD-06
+Bicicletas na CBD-06 : 13
+Vagas na CBD-06 : 14
+Terminará em 2014-10-13 12:31:26 
+
+US-75 iniciou viagem no tempo 2014-10-13 12:15:00 saindo de CBD-13
+Bicicletas na CBD-13 : 16
+Vagas na CBD-13 : 2
+Terminará em 2014-10-13 12:31:19 
+
+US-67 chegou para devolução em 2014-10-13 12:16:06 na estacao BT-01
+US-67 devolveu no tempo 2014-10-13 12:16:06 em BT-01
+Bicicletas na BT-01 : 8
+Vagas na BT-01 : 10 
+
+US-70 chegou para devolução em 2014-10-13 12:16:32 na estacao CBD-13
+US-70 devolveu no tempo 2014-10-13 12:16:32 em CBD-13
+Bicicletas na CBD-13 : 17
+Vagas na CBD-13 : 1 
+
+US-76 chegou para aluguel em 2014-10-13 12:17:00 na estacao CBD-03
+US-76 iniciou viagem no tempo 2014-10-13 12:17:00 saindo de CBD-03
+Bicicletas na CBD-03 : 12
+Vagas na CBD-03 : 8
+Terminará em 2014-10-13 12:22:53 
+
+US-77 chegou para aluguel em 2014-10-13 12:19:00 na estacao CBD-13
+US-78 chegou para aluguel em 2014-10-13 12:19:00 na estacao CBD-06
+US-77 iniciou viagem no tempo 2014-10-13 12:19:00 saindo de CBD-13
+Bicicletas na CBD-13 : 16
+Vagas na CBD-13 : 2
+Terminará em 2014-10-13 12:21:12 
+
+US-78 iniciou viagem no tempo 2014-10-13 12:19:00 saindo de CBD-06
+Bicicletas na CBD-06 : 12
+Vagas na CBD-06 : 15
+Terminará em 2014-10-13 12:33:48 
+
+US-60 chegou para devolução em 2014-10-13 12:19:13 na estacao BT-03
+US-60 devolveu no tempo 2014-10-13 12:19:13 em BT-03
+Bicicletas na BT-03 : 9
+Vagas na BT-03 : 7 
+
+US-62 chegou para devolução em 2014-10-13 12:19:46 na estacao BT-01
+US-62 devolveu no tempo 2014-10-13 12:19:46 em BT-01
+Bicicletas na BT-01 : 9
+Vagas na BT-01 : 9 
+
+US-72 chegou para devolução em 2014-10-13 12:19:55 na estacao CBD-06
+US-72 devolveu no tempo 2014-10-13 12:19:55 em CBD-06
+Bicicletas na CBD-06 : 13
+Vagas na CBD-06 : 14 
+
+US-79 chegou para aluguel em 2014-10-13 12:20:00 na estacao BT-03
+US-80 chegou para aluguel em 2014-10-13 12:20:00 na estacao BT-03
+US-79 iniciou viagem no tempo 2014-10-13 12:20:00 saindo de BT-03
+Bicicletas na BT-03 : 7
+Vagas na BT-03 : 9
+Terminará em 2014-10-13 12:31:30 
+
+US-80 iniciou viagem no tempo 2014-10-13 12:20:00 saindo de BT-03
+Bicicletas na BT-03 : 7
+Vagas na BT-03 : 9
+Terminará em 2014-10-13 12:25:51 
+
+US-81 chegou para aluguel em 2014-10-13 12:21:00 na estacao CBD-06
+US-81 iniciou viagem no tempo 2014-10-13 12:21:00 saindo de CBD-06
+Bicicletas na CBD-06 : 12
+Vagas na CBD-06 : 15
+Terminará em 2014-10-13 12:31:53 
+
+US-77 chegou para devolução em 2014-10-13 12:21:12 na estacao BT-04
+US-77 devolveu no tempo 2014-10-13 12:21:12 em BT-04
+Bicicletas na BT-04 : 16
+Vagas na BT-04 : 0 
+
+US-76 chegou para devolução em 2014-10-13 12:22:53 na estacao CBD-05
+US-76 devolveu no tempo 2014-10-13 12:22:53 em CBD-05
+Bicicletas na CBD-05 : 21
+Vagas na CBD-05 : 7 
+
+US-71 chegou para devolução em 2014-10-13 12:25:32 na estacao CBD-03
+US-71 devolveu no tempo 2014-10-13 12:25:32 em CBD-03
+Bicicletas na CBD-03 : 13
+Vagas na CBD-03 : 7 
+
+US-80 chegou para devolução em 2014-10-13 12:25:51 na estacao BT-01
+US-80 devolveu no tempo 2014-10-13 12:25:51 em BT-01
+Bicicletas na BT-01 : 10
+Vagas na BT-01 : 8 
+
+US-82 chegou para aluguel em 2014-10-13 12:31:00 na estacao CBD-07
+US-82 iniciou viagem no tempo 2014-10-13 12:31:00 saindo de CBD-07
+Bicicletas na CBD-07 : 15
+Vagas na CBD-07 : 5
+Terminará em 2014-10-13 12:57:33 
+
+US-75 chegou para devolução em 2014-10-13 12:31:19 na estacao BT-01
+US-75 devolveu no tempo 2014-10-13 12:31:19 em BT-01
+Bicicletas na BT-01 : 11
+Vagas na BT-01 : 7 
+
+US-74 chegou para devolução em 2014-10-13 12:31:26 na estacao CBD-07
+US-74 devolveu no tempo 2014-10-13 12:31:26 em CBD-07
+Bicicletas na CBD-07 : 16
+Vagas na CBD-07 : 4 
+
+US-79 chegou para devolução em 2014-10-13 12:31:30 na estacao CBD-04
+US-79 devolveu no tempo 2014-10-13 12:31:30 em CBD-04
+Bicicletas na CBD-04 : 11
+Vagas na CBD-04 : 7 
+
+US-73 chegou para devolução em 2014-10-13 12:31:41 na estacao CBD-03
+US-73 devolveu no tempo 2014-10-13 12:31:41 em CBD-03
+Bicicletas na CBD-03 : 14
+Vagas na CBD-03 : 6 
+
+US-81 chegou para devolução em 2014-10-13 12:31:53 na estacao BT-04
+US-83 chegou para aluguel em 2014-10-13 12:32:00 na estacao CBD-05
+US-84 chegou para aluguel em 2014-10-13 12:32:00 na estacao CBD-07
+US-85 chegou para aluguel em 2014-10-13 12:32:00 na estacao BT-04
+US-86 chegou para aluguel em 2014-10-13 12:32:00 na estacao CBD-03
+US-83 iniciou viagem no tempo 2014-10-13 12:32:00 saindo de CBD-05
+Bicicletas na CBD-05 : 20
+Vagas na CBD-05 : 8
+Terminará em 2014-10-13 12:56:50 
+
+US-84 iniciou viagem no tempo 2014-10-13 12:32:00 saindo de CBD-07
+Bicicletas na CBD-07 : 15
+Vagas na CBD-07 : 5
+Terminará em 2014-10-13 12:35:33 
+
+US-85 iniciou viagem no tempo 2014-10-13 12:32:00 saindo de BT-04
+Bicicletas na BT-04 : 16
+Vagas na BT-04 : 0
+Terminará em 2014-10-13 12:39:51 
+
+US-86 iniciou viagem no tempo 2014-10-13 12:32:00 saindo de CBD-03
+Bicicletas na CBD-03 : 13
+Vagas na CBD-03 : 7
+Terminará em 2014-10-13 12:40:08 
+
+US-81 devolveu no tempo 2014-10-13 12:32:00 em BT-04
+Bicicletas na BT-04 : 16
+Vagas na BT-04 : 0 
+
+US-78 chegou para devolução em 2014-10-13 12:33:48 na estacao BT-05
+US-78 devolveu no tempo 2014-10-13 12:33:48 em BT-05
+Bicicletas na BT-05 : 11
+Vagas na BT-05 : 3 
+
+US-87 chegou para aluguel em 2014-10-13 12:35:00 na estacao CBD-13
+US-88 chegou para aluguel em 2014-10-13 12:35:00 na estacao BT-01
+US-87 iniciou viagem no tempo 2014-10-13 12:35:00 saindo de CBD-13
+Bicicletas na CBD-13 : 15
+Vagas na CBD-13 : 3
+Terminará em 2014-10-13 12:46:57 
+
+US-88 iniciou viagem no tempo 2014-10-13 12:35:00 saindo de BT-01
+Bicicletas na BT-01 : 10
+Vagas na BT-01 : 8
+Terminará em 2014-10-13 12:46:29 
+
+US-84 chegou para devolução em 2014-10-13 12:35:33 na estacao CBD-04
+US-84 devolveu no tempo 2014-10-13 12:35:33 em CBD-04
+Bicicletas na CBD-04 : 12
+Vagas na CBD-04 : 6 
+
+US-56 chegou para devolução em 2014-10-13 12:38:36 na estacao BT-01
+US-56 devolveu no tempo 2014-10-13 12:38:36 em BT-01
+Bicicletas na BT-01 : 11
+Vagas na BT-01 : 7 
+
+US-59 chegou para devolução em 2014-10-13 12:38:44 na estacao BT-01
+US-59 devolveu no tempo 2014-10-13 12:38:44 em BT-01
+Bicicletas na BT-01 : 12
+Vagas na BT-01 : 6 
+
+US-89 chegou para aluguel em 2014-10-13 12:39:00 na estacao BT-04
+US-89 iniciou viagem no tempo 2014-10-13 12:39:00 saindo de BT-04
+Bicicletas na BT-04 : 15
+Vagas na BT-04 : 1
+Terminará em 2014-10-13 12:44:57 
+
+US-85 chegou para devolução em 2014-10-13 12:39:51 na estacao CBD-04
+US-85 devolveu no tempo 2014-10-13 12:39:51 em CBD-04
+Bicicletas na CBD-04 : 13
+Vagas na CBD-04 : 5 
+
+US-61 chegou para devolução em 2014-10-13 12:40:06 na estacao BT-01
+US-61 devolveu no tempo 2014-10-13 12:40:06 em BT-01
+Bicicletas na BT-01 : 13
+Vagas na BT-01 : 5 
+
+US-86 chegou para devolução em 2014-10-13 12:40:08 na estacao CBD-03
+US-86 devolveu no tempo 2014-10-13 12:40:08 em CBD-03
+Bicicletas na CBD-03 : 14
+Vagas na CBD-03 : 6 
+
+US-90 chegou para aluguel em 2014-10-13 12:43:00 na estacao CBD-03
+US-90 iniciou viagem no tempo 2014-10-13 12:43:00 saindo de CBD-03
+Bicicletas na CBD-03 : 13
+Vagas na CBD-03 : 7
+Terminará em 2014-10-13 12:47:38 
+
+US-68 chegou para devolução em 2014-10-13 12:44:32 na estacao BT-04
+US-68 devolveu no tempo 2014-10-13 12:44:32 em BT-04
+Bicicletas na BT-04 : 16
+Vagas na BT-04 : 0 
+
+US-89 chegou para devolução em 2014-10-13 12:44:57 na estacao BT-01
+US-89 devolveu no tempo 2014-10-13 12:44:57 em BT-01
+Bicicletas na BT-01 : 14
+Vagas na BT-01 : 4 
+
+US-91 chegou para aluguel em 2014-10-13 12:46:00 na estacao BT-04
+US-91 iniciou viagem no tempo 2014-10-13 12:46:00 saindo de BT-04
+Bicicletas na BT-04 : 15
+Vagas na BT-04 : 1
+Terminará em 2014-10-13 12:47:17 
+
+US-88 chegou para devolução em 2014-10-13 12:46:29 na estacao CBD-07
+US-88 devolveu no tempo 2014-10-13 12:46:29 em CBD-07
+Bicicletas na CBD-07 : 16
+Vagas na CBD-07 : 4 
+
+US-87 chegou para devolução em 2014-10-13 12:46:57 na estacao CBD-05
+US-87 devolveu no tempo 2014-10-13 12:46:57 em CBD-05
+Bicicletas na CBD-05 : 21
+Vagas na CBD-05 : 7 
+
+US-91 chegou para devolução em 2014-10-13 12:47:17 na estacao BT-04
+US-91 devolveu no tempo 2014-10-13 12:47:17 em BT-04
+Bicicletas na BT-04 : 16
+Vagas na BT-04 : 0 
+
+US-90 chegou para devolução em 2014-10-13 12:47:38 na estacao BT-01
+US-90 devolveu no tempo 2014-10-13 12:47:38 em BT-01
+Bicicletas na BT-01 : 15
+Vagas na BT-01 : 3 
+
+US-92 chegou para aluguel em 2014-10-13 12:48:00 na estacao BT-04
+US-93 chegou para aluguel em 2014-10-13 12:48:00 na estacao CBD-06
+US-92 iniciou viagem no tempo 2014-10-13 12:48:00 saindo de BT-04
+Bicicletas na BT-04 : 15
+Vagas na BT-04 : 1
+Terminará em 2014-10-13 12:50:59 
+
+US-93 iniciou viagem no tempo 2014-10-13 12:48:00 saindo de CBD-06
+Bicicletas na CBD-06 : 11
+Vagas na CBD-06 : 16
+Terminará em 2014-10-13 12:57:50 
+
+US-94 chegou para aluguel em 2014-10-13 12:49:00 na estacao CBD-07
+US-94 iniciou viagem no tempo 2014-10-13 12:49:00 saindo de CBD-07
+Bicicletas na CBD-07 : 15
+Vagas na CBD-07 : 5
+Terminará em 2014-10-13 12:52:13 
+
+US-92 chegou para devolução em 2014-10-13 12:50:59 na estacao BT-03
+US-92 devolveu no tempo 2014-10-13 12:50:59 em BT-03
+Bicicletas na BT-03 : 8
+Vagas na BT-03 : 8 
+
+US-94 chegou para devolução em 2014-10-13 12:52:13 na estacao BT-01
+US-94 devolveu no tempo 2014-10-13 12:52:13 em BT-01
+Bicicletas na BT-01 : 16
+Vagas na BT-01 : 2 
+
+US-95 chegou para aluguel em 2014-10-13 12:53:00 na estacao BT-05
+US-95 iniciou viagem no tempo 2014-10-13 12:53:00 saindo de BT-05
+Bicicletas na BT-05 : 10
+Vagas na BT-05 : 4
+Terminará em 2014-10-13 12:57:18 
+
+US-96 chegou para aluguel em 2014-10-13 12:54:00 na estacao CBD-06
+US-97 chegou para aluguel em 2014-10-13 12:54:00 na estacao CBD-03
+US-96 iniciou viagem no tempo 2014-10-13 12:54:00 saindo de CBD-06
+Bicicletas na CBD-06 : 10
+Vagas na CBD-06 : 17
+Terminará em 2014-10-13 12:59:35 
+
+US-97 iniciou viagem no tempo 2014-10-13 12:54:00 saindo de CBD-03
+Bicicletas na CBD-03 : 12
+Vagas na CBD-03 : 8
+Terminará em 2014-10-13 13:14:54 
+
+US-83 chegou para devolução em 2014-10-13 12:56:50 na estacao CBD-06
+US-83 devolveu no tempo 2014-10-13 12:56:50 em CBD-06
+Bicicletas na CBD-06 : 11
+Vagas na CBD-06 : 16 
+
+US-98 chegou para aluguel em 2014-10-13 12:57:00 na estacao CBD-13
+US-98 iniciou viagem no tempo 2014-10-13 12:57:00 saindo de CBD-13
+Bicicletas na CBD-13 : 14
+Vagas na CBD-13 : 4
+Terminará em 2014-10-13 13:04:05 
+
+US-95 chegou para devolução em 2014-10-13 12:57:18 na estacao BT-05
+US-95 devolveu no tempo 2014-10-13 12:57:18 em BT-05
+Bicicletas na BT-05 : 11
+Vagas na BT-05 : 3 
+
+US-82 chegou para devolução em 2014-10-13 12:57:33 na estacao CBD-13
+US-82 devolveu no tempo 2014-10-13 12:57:33 em CBD-13
+Bicicletas na CBD-13 : 15
+Vagas na CBD-13 : 3 
+
+US-93 chegou para devolução em 2014-10-13 12:57:50 na estacao BT-05
+US-93 devolveu no tempo 2014-10-13 12:57:50 em BT-05
+Bicicletas na BT-05 : 12
+Vagas na BT-05 : 2 
+
+US-99 chegou para aluguel em 2014-10-13 12:58:00 na estacao CBD-13
+US-99 iniciou viagem no tempo 2014-10-13 12:58:00 saindo de CBD-13
+Bicicletas na CBD-13 : 14
+Vagas na CBD-13 : 4
+Terminará em 2014-10-13 13:17:49 
+
+US-100 chegou para aluguel em 2014-10-13 12:59:00 na estacao CBD-04
+US-100 iniciou viagem no tempo 2014-10-13 12:59:00 saindo de CBD-04
+Bicicletas na CBD-04 : 12
+Vagas na CBD-04 : 6
+Terminará em 2014-10-13 13:15:43 
+
+US-96 chegou para devolução em 2014-10-13 12:59:35 na estacao BT-03
+US-96 devolveu no tempo 2014-10-13 12:59:35 em BT-03
+Bicicletas na BT-03 : 9
+Vagas na BT-03 : 7 
+
+US-98 chegou para devolução em 2014-10-13 13:04:05 na estacao BT-05
+US-98 devolveu no tempo 2014-10-13 13:04:05 em BT-05
+Bicicletas na BT-05 : 13
+Vagas na BT-05 : 1 
+
+US-97 chegou para devolução em 2014-10-13 13:14:54 na estacao BT-03
+US-97 devolveu no tempo 2014-10-13 13:14:54 em BT-03
+Bicicletas na BT-03 : 10
+Vagas na BT-03 : 6 
+
+US-100 chegou para devolução em 2014-10-13 13:15:43 na estacao CBD-03
+US-100 devolveu no tempo 2014-10-13 13:15:43 em CBD-03
+Bicicletas na CBD-03 : 13
+Vagas na CBD-03 : 7 
+
+US-99 chegou para devolução em 2014-10-13 13:17:49 na estacao CBD-13
+US-99 devolveu no tempo 2014-10-13 13:17:49 em CBD-13
+Bicicletas na CBD-13 : 15
+Vagas na CBD-13 : 3 
+
+US-63 chegou para devolução em 2014-10-13 14:27:37 na estacao CBD-03
+US-63 devolveu no tempo 2014-10-13 14:27:37 em CBD-03
+Bicicletas na CBD-03 : 14
+Vagas na CBD-03 : 6 
+
+US-69 chegou para devolução em 2014-10-13 19:06:39 na estacao BT-01
+US-69 devolveu no tempo 2014-10-13 19:06:39 em BT-01
+Bicicletas na BT-01 : 17
+Vagas na BT-01 : 1 
+

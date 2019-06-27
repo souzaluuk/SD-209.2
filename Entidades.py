@@ -11,30 +11,23 @@ class Usuario:
         self.estacaoDest = estacaoDest
 
 class Estacao:
-    def __init__(self, env, nome, bicicletas, vagas):
+    def __init__(self, env, nome, bicicletas):
         self.env = env
         self.nome = nome
         self.bicicletas = bicicletas # container
-        self.vagas = vagas # resource
         self.temBicicleta = self.env.event()
         self.temVaga = self.env.event()
     
     def emprestaBicicleta(self,usuario:Usuario):
         yield self.env.timeout(usuario.tempoChegada)
-        print(usuario.nome,'chegou para emprestimo em',utils.timestampToDate(self.env.now),'na estacao',self.nome)
+        print(usuario.nome,'chegou para aluguel em',utils.timestampToDate(self.env.now),'na estacao',self.nome)
 
-        if 0 < self.bicicletas.level and not self.temBicicleta.triggered:
-            self.temBicicleta.succeed()
-    
-        qtBicicletas = self.bicicletas.level-1
+        yield self.bicicletas.get(1)
 
-        yield self.temBicicleta and self.bicicletas.get(1)
-
-        self.vagas += 1
-        print(usuario.nome,'iniciou viagem saindo de', usuario.estacaoOrigem,'em',utils.timestampToDate(self.env.now))
-        print('Bicicletas em',self.nome,':',qtBicicletas)
-        print('Vagas em',self.nome,':',self.vagas)
-        print('Terminará em',utils.timestampToDate(self.env.now+usuario.tempoViagem//1000))
+        print(usuario.nome,'iniciou viagem no tempo',utils.timestampToDate(self.env.now),'saindo de',self.nome)
+        print('Bicicletas na',self.nome,':',self.bicicletas.level)
+        print('Vagas na',self.nome,':',self.bicicletas.capacity-self.bicicletas.level)
+        print('Terminará em',utils.timestampToDate(self.env.now+usuario.tempoViagem//1000),'\n')
 
         self.temBicicleta = self.env.event()
         tempoDevolucao = usuario.tempoViagem//1000
@@ -42,4 +35,12 @@ class Estacao:
     
     def devolveBicicleta(self,usuario:Usuario,tempoDevolucao):
         yield self.env.timeout(tempoDevolucao)
-        print(usuario.nome,'chegou para devolucao em',utils.timestampToDate(self.env.now),'na estacao',self.nome)
+        print(usuario.nome,'chegou para devolução em',utils.timestampToDate(self.env.now),'na estacao',self.nome)
+
+        yield self.bicicletas.put(1)
+        
+        print(usuario.nome,'devolveu no tempo',utils.timestampToDate(self.env.now),'em',self.nome)
+        print('Bicicletas na',self.nome,':',self.bicicletas.level)
+        print('Vagas na',self.nome,':',self.bicicletas.capacity-self.bicicletas.level,'\n')
+        
+        self.temVaga = self.env.event()
