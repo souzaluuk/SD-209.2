@@ -1,0 +1,74 @@
+Cenário inicia com:
+Numero de usuários: 7
+Estação : {'bikes': 5, 'docks': 5, 'docksAvailable': 0}
+
+US-1 chegou para aluguel em 2014-10-13 10:31:00 na estacao Estação
+US-1 iniciou viagem no tempo 2014-10-13 10:31:00 saindo de Estação
+Bicicletas na Estação : 4
+Vagas na Estação : 1
+
+US-2 chegou para aluguel em 2014-10-13 10:32:00 na estacao Estação
+US-2 iniciou viagem no tempo 2014-10-13 10:32:00 saindo de Estação
+Bicicletas na Estação : 3
+Vagas na Estação : 2
+
+US-3 chegou para aluguel em 2014-10-13 10:33:00 na estacao Estação
+US-3 iniciou viagem no tempo 2014-10-13 10:33:00 saindo de Estação
+Bicicletas na Estação : 2
+Vagas na Estação : 3
+
+US-4 chegou para aluguel em 2014-10-13 10:34:00 na estacao Estação
+US-5 chegou para aluguel em 2014-10-13 10:34:00 na estacao Estação
+US-6 chegou para aluguel em 2014-10-13 10:34:00 na estacao Estação
+US-4 iniciou viagem no tempo 2014-10-13 10:34:00 saindo de Estação
+Bicicletas na Estação : 0
+Vagas na Estação : 5
+
+US-5 iniciou viagem no tempo 2014-10-13 10:34:00 saindo de Estação
+Bicicletas na Estação : 0
+Vagas na Estação : 5
+
+US-1 chegou para devolução em 2014-10-13 10:47:25 na estacao Estação
+US-1 devolveu no tempo 2014-10-13 10:47:25 em Estação
+Bicicletas na Estação : 0
+Vagas na Estação : 5 
+
+US-6 iniciou viagem no tempo 2014-10-13 10:47:25 saindo de Estação
+Bicicletas na Estação : 0
+Vagas na Estação : 5
+
+US-2 chegou para devolução em 2014-10-13 10:47:26 na estacao Estação
+US-2 devolveu no tempo 2014-10-13 10:47:26 em Estação
+Bicicletas na Estação : 1
+Vagas na Estação : 4 
+
+US-3 chegou para devolução em 2014-10-13 10:47:43 na estacao Estação
+US-3 devolveu no tempo 2014-10-13 10:47:43 em Estação
+Bicicletas na Estação : 2
+Vagas na Estação : 3 
+
+US-4 chegou para devolução em 2014-10-13 10:48:25 na estacao Estação
+US-4 devolveu no tempo 2014-10-13 10:48:25 em Estação
+Bicicletas na Estação : 3
+Vagas na Estação : 2 
+
+US-5 chegou para devolução em 2014-10-13 10:49:23 na estacao Estação
+US-5 devolveu no tempo 2014-10-13 10:49:23 em Estação
+Bicicletas na Estação : 4
+Vagas na Estação : 1 
+
+US-6 chegou para devolução em 2014-10-13 11:00:53 na estacao Estação
+US-6 devolveu no tempo 2014-10-13 11:00:53 em Estação
+Bicicletas na Estação : 5
+Vagas na Estação : 0 
+
+US-7 chegou para aluguel em 2014-10-13 11:35:00 na estacao Estação
+US-7 iniciou viagem no tempo 2014-10-13 11:35:00 saindo de Estação
+Bicicletas na Estação : 4
+Vagas na Estação : 1
+
+US-7 chegou para devolução em 2014-10-13 11:44:56 na estacao Estação
+US-7 devolveu no tempo 2014-10-13 11:44:56 em Estação
+Bicicletas na Estação : 5
+Vagas na Estação : 0 
+
