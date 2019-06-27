@@ -30,7 +30,7 @@ station = pd.read_csv('data/station.csv', sep =',', names=stationFields)[:numSta
 # utils.plotHistogram(tripDurations,'Tempo de viagens',op=2) # op = 2 converte para minutos
 
 # Demanda por vaga 33:56
-# originStations = list(trip.from_station_id.values)
+# originStations = list(trip.to_station_id.values)
 # demandByStation = [ (stationName,originStations.count(stationName)) for stationName in set(originStations) ]
 # demandByStation.sort(key=lambda tpl: tpl[1])
 # meio = len(demandByStation)
@@ -50,7 +50,7 @@ station = pd.read_csv('data/station.csv', sep =',', names=stationFields)[:numSta
 # ax2.set_ylabel('Vagas', color='r')
 # ax2.plot(x,[dictStations[name] for name in x], color='r')
 # # utils.plt.bar(range(len(x)),[dictStations[name]*200 for name in x],color='r')
-# utils.plt.title('Demanda de retirada por quantidade de vagas')
+# utils.plt.title('Demanda de devoluções por quantidade de vagas')
 # utils.plt.show()
 
 # exit()
